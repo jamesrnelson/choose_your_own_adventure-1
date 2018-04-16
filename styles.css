@@ -1,91 +1,69 @@
 body {
-  color: white;
-  font-family: Arial, Helveticaa, sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 16px;
 }
-.down-arrow {
-  padding-left: 30px;
-  list-style-image: url('./images/white-arrow.png');
+.solid-button {
+  background-color: #4d4dff
+  padding: 10px 15px;
+  border: none;
 }
 
-.container {
-  background-image: url('./images/feet.png');
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
+/* .border-button {
+  padding-left: 20px;
+  background-color: white;
+  border: 3px solid #4d4dff;
+  color: #4d4dff;
+  text-align: center; */
+/* } */
+.nav-bar {
   width: 100%;
-  height: 100%;
-}
-
-.navbar {
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
   display: flex;
   flex-direction: row;
-  width: 100%;
-}
-ul {
-  list-style: none;
-}
-li {
-  display: inline-block;
-  list-style: none;
-}
-
-h1 {
-  padding: 5px;
-  font-size: 70px;
-}
-
-h3 {
-  padding: 0px 20px 30px 20px;
 }
 
 .left-nav {
+  flex-basis: 40%;
   display: flex;
-  flex-direction: row;
-  width: 40%;
-  justify-content: center;
-  align-items: center;
-}
-
-.middle-nav {
-  display: flex;
-  font-size: 40px;
-  font-family: 'Satisfy', cursive;
-  width: 30%;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 
 .right-nav {
+  flex-basis: 60%;
   display: flex;
-  width: 40%;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+p {
+  display: inline-block;
+  padding-left: 70px;
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
-}
-
-.main-center {
-  padding-top: 125px;
-  padding-bottom: 125px;
+  width: 100%;
+  background-color: white;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 
-.inner-main-center {
+.left-main {
+  padding-left: 100px;
+  padding-top: 100px;
+  flex-basis: 45%;
   display: flex;
   flex-direction: column;
+
 }
 
-.main-bottom {
+.right-main {
+  flex-basis: 55%;
+}
+
+.bottom {
+  background-color: #6666ff;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row-reverse;
+  padding-top: 50px;
 }
